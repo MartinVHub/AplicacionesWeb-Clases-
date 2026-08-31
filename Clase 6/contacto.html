@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">
+            <img src="./recursos/imagenes/huella.png" alt="logo huellitas" </a>
+        </a>
+        <nav>
+            <a href="./index.html">
+                Inicio
+            </a>
+            <a href="./contacto.html">
+                contacto
+            </a>
+        </nav>   
+    </header>
+    <main>
+        <h1>contacto</h1>
+        <form action="./contacto.html"method="post">
+            <!--
+            nombre
+            telefono
+            tamaño
+            edad
+            comentario / sobre la mascota
+            --> 
+            <label for="">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+
+            <label for="">telefono</label>
+            <input type="tel" name="telefono" id="">
+
+            <label for=""></label>            
+            <select name="tamaño-mascota" id="id-tamaño-mascota">
+                <option value="C">chico</option>
+                <option value="M">mediano</option>
+                <option value="G">grande</option>
+            </select>
+            <input type="number" name="edad" id="">
+            <textarea name="comentario" id=""></textarea>
+
+            <!-- --- -->
+             <!-- <input type="submit" value="enviar"  -->
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://instagram.com/@huellitas" target="_blank">
+                    @huellitas
+                 </a>                
+            </li>
+            <li>
+                Bv. San Juan 200 - Bº Nueva Cordoba
+            </li>
+        </ul>
+    </footer>    
+
+</body>
