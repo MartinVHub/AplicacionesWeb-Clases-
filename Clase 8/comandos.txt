@@ -1,8 +1,8 @@
 Comandos de Consola
 
 -cuenta git
-git config user.name benja4510
-git config user.email benjamindiaz4518@gmail.com
+git config user.name MartinVHub
+git config user.email villagram31@gmail.com
 
 Comandos primera vez (en su casa):
 
